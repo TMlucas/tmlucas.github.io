@@ -97,19 +97,42 @@
 					<h3>Modélisation bloc par bloc</h3>
 					</section>
 					<section>
-					<h3>Capteur d'angle de tangage - Inclinomètre</h3>
+						<h3>Capteur d'angle de tangage - Inclinomètre</h3>
+						<p>On a :</p>
+						<img src="inclino.PNG" WIDTH=750 HEIGHT=500>
+						<p>Avec S0a = 0,42 V/</p>
 					</section>
 					<section>
-					<h3>Capteur gyromètre</h3>
+						<h3>Capteur gyromètre</h3>
+						<p>On trouve dans le dossier ressource un gain de 0,67 V/°/s</p>
 					</section>
 					<section>
-					<h3>Moteurs</h3>
+						<h3>Moteurs</h3>
+						<img src="moteur.jpg" WIDTH=750 HEIGHT=500>
+						<p>Pour une entrée en rampe</p>
+						<p>On déduit K=(400-300)/(6000-5050)=0,105</p>
 					</section>
 					<section>
-					<h3>Hélices</h3>
+						<h3>Hélices</h3>
+						<p>On teste avec la jauge d'effort</p>
 					</section>
 					<section>
-					<h3>Balancier</h3>
+						<h3>Balancier</h3>
+						<p>Il nous est donné :</p>
+						<img src="formule.PNG" WIDTH=750 HEIGHT=500>
+						<p>Où : </p>
+						<ul>
+						<li>Fd et Fg sont les forces générées par les hélices gauche et droite ;</li>
+						<li>b est le bras de levier pour exprimer le moment des forces Fg et Fd calculé au point O ;</li>
+						<li>J est appelé « moment d’inertie » du corps du drone didactique ;</li>
+						<li> α est l'angle de tangage du corps du drone didactique </li>
+						<li> Cf est un « couple de frottement » qui peut intervenir au point O de l’axe d’articulation pour freiner le mouvement de tangage; On propose dans la suite de négliger le couple de frottement : Cf=0 . </li>
+						</ul>						
+					</section>
+					<section>
+						<h3>Balancier</h3>
+						<p>Données :  b=0,14m  J=0.01kg.m²</p>
+						<p>On déduit donc lorsque les forces sont égales 
 					</section>
 					<section>
 					<h3>Simulation du modèle sur Matlab/Simulink</h3>
